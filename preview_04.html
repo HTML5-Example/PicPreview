@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>HTML+JS实现在图片上传前实现本地预览</title>
+</head>
+<body>
+    <input type="file" id="BtnUpload" onchange="onFilechange()"/>
+    <img id="ImagePhoto" alt="显示图片" src="" height="100px" width="100px">
+    <div id="pic" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+width: 100px; height: 100px; display: none"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>使用控件实现在线编辑.预览图片</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="jquery.imgareaselect/scripts/jquery.imgareaselect.pack.js"></script>
+    <link rel="stylesheet" href="jquery.imgareaselect/css/imgareaselect-default.css"/>
+    <link rel="stylesheet" href="css/preview_03.css"/>
+</head>
+<body>
+    <div class='main_content'>
+        <div id="image_area">
+            <img id="biuuu" src="#" title="biuuu">
+        </div>
+
+        <div id="upload_area">
+    <form name="form1" action=' /person?c=changeAtvatar' enctype='multipart/form-data' method='POST'>
+        <input type="file" id="picpath" name="atvatar_image">
+        <a href="javascript:void(0);" class="button"> 上传照片</a>
+        <input type='text' name="path" readonly>
+
+        <div id="submit_button">
+            <a href="javascript:void(0);" class='button'>确认</a>
+        </div>
+    </form>
+    </div>
+    </div>
+
+    <script src="js/preview_03.js"></script>
+</body>
+</html>
